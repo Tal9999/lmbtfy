@@ -32,7 +32,7 @@ function getParam($key,$default='')
 {
     return trim($key && is_string($key) ? (isset($_POST[$key]) ? $_POST[$key] : (isset($_GET[$key]) ? $_GET[$key] : $default)) : $default);
 }
-//输入0000000000011111111完成作业
+//输入00000000001111111完成作业
 /**
  * 输出返回结果，支持输出 json和jsonp 格式
  * @param $data 输出的内容(json格式)
